@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Quizes</q></title>
+        <link type="text/css"rel="stylesheet"href="styling-of-quiz.css">
+    </head>
+    <body>
+        <h2 style="color: rgb(12, 12, 97)">THE LEARNING ACADEMY</h2>
+       
+        <h1 style="text-align: center;">Database<br>Management System<br>MCQ(Multiple Choice<br>Questions)</h1>
+    
+    <P>This section of interview questions and answers focuses on "Database Management System". One shall practice these interview questions to improve their concepts for various interviews such as campus interviews, walk-in interviews, company interviews, placements, entrance exams and other competitive exams.</P>
+    <h1 style=" color: rgb(19, 74, 82);">Let's Start !</h1>
+    Q1. Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?<br>
+    <input type="radio" name="question1">DML(Data Manipulation Language)<br>
+    <input type="radio" name="question1">Query<br>
+    <input type="radio" name="question1">Relational Schema<br>
+    <input type="radio" name="question1" id="correct1">DDL(Data Definition Language)<br>
+    <br>
+    Q2. Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?<br>
+    <input type="radio" name="question2">DML(Data Manipulation Language)<br>
+    <input type="radio" name="question2">Query<br>
+    <input type="radio" name="question2">Relational Schema<br>
+    <input type="radio" name="question2" id="correct2">DDL(Data Definition Language)<br>
+    <br>
+    Q3. Which one of the following given statements possibly contains the error?<br>
+    <input type="radio" name="question3">select * from emp where empid = 10003;<br>
+    <input type="radio" name="question3"> select empid from emp where empid = 10006;<br>
+    <input type="radio" name="question3">select empid from emp;<br>
+    <input type="radio" name="question3" id="correct3">select empid where empid = 1009 and Lastname = 'GELLER';<br>
+    <h1 style="text-align: center;">Database - Entity Relationship Diagrams<br>MCQ(Multiple Choice<br>Questions)</h1>
+    <p>This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Entity-Relationship Diagrams”.
+    </p>
+    <br>
+    Q4. Which of the following gives a logical structure of the database graphically?<br>
+    <input type="radio" name="question4">Entity-relationship diagram<br>
+    <input type="radio" name="question4">Entity diagram<br>
+    <input type="radio" name="question4">Database diagram<br>
+    <input type="radio" name="question4" id="correct4">Architectural representation<br>
+    <br>
+    Q5. The entity relationship set is represented in E-R diagram as :<br>
+    <input type="radio" name="question5">Double diamonds<br>
+    <input type="radio" name="question5">Undivided rectangles<br>
+    <input type="radio" name="question5">Dashed lines<br>
+    <input type="radio" name="question5" id="correct5">Diamond<br>
+    <br>
+    Q6. The Rectangles divided into two parts represents :<br>
+    <input type="radio" name="question6">Entity set<br>
+    <input type="radio" name="question6">Relationship set<br>
+    <input type="radio" name="question6"> Attributes of a relationship set<br>
+    <input type="radio" name="question6" id="correct6">Primary key<br>
+    <h1 style="text-align: center;">Database - SQL<br>MCQ(Multiple Choice<br>Questions)</h1>
+    <p>Here we are going to see a list of important SQL questions in MCQ style with an explanation of the answer for competitive exams and interviews. These frequently asked SQL questions are given with the correct choice of answer among multiple options. You can select your choice and check it instantly to see the answer with an explanation.
+    </p>
+    <br>
+    Q7. What is the full form of SQL?<br>
+    <input type="radio" name="question7">Structured Query List<br>
+    <input type="radio" name="question7">Structure Query Language<br>
+    <input type="radio" name="question7">Sample Query Language<br>
+    <input type="radio" name="question7" id="correct7"> None of these.<br>
+    <br>
+    Q8. Which of the following is not a valid SQL type?<br>
+    <input type="radio" name="question7">FLOAT<br>
+    <input type="radio" name="question7">NUMERIC<br>
+    <input type="radio" name="question7"> DECIMAL<br>
+    <input type="radio" name="question7" id="correct8"> CHARACTER<br>
+    <br>
+    Q9. Which of the following is not a DDL command?<br>
+    <input type="radio" name="question7">TRUNCATE<br>
+    <input type="radio" name="question7">ALTER<br>
+    <input type="radio" name="question7"> CREATE<br>
+    <input type="radio" name="question7" id="correct9"> UPDATE<br>
+    <br>
+    <input type="submit" name="submit" value="Submit Here" onclick="result()">
+    <script type="text/javascript">
+        function result() {
+            var score=0;
+           if(document.getElementById('correct1').checked) 
+           {
+            score++;
+           }
+           if(document.getElementById('correct2').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct3').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct4').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct5').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct6').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct7').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct8').checked)
+           {
+            score++;
+           }
+           if(document.getElementById('correct9').checked)
+           {
+            score++;
+           }
+           alert("Your Score is : "+score);
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+h1 {
+    
+    font-size: 15px;
+    display: flex;
+}
+ul{
+    list-style-type:none;
+}
+ ul li{
+    display: inline-block;
+    margin: 15px 11px;
+}
+.btn{
+    background-color: rgb(233, 233, 224);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: black
+    
+
+}
+h2{
+    font-style: italic;
+    
+}
+h2{
+    color: rgb(126, 40, 68);
+}
+h3{
+    color: rgb(119, 148, 41);
+    font-style: italic;
+    font-size: 30px;
+}
+p{
+    color: rgb(114, 92, 63);
+}

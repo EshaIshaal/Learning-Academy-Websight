@@ -1,0 +1,18 @@
+h1{
+    font-style: italic;
+}
+h2{
+    font-style: italic;
+}
+p{
+    height: auto;
+}
+h1{
+    color:rgb(26, 22, 22)
+}
+.btn{
+    background-color:goldenrod;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: black
+}
